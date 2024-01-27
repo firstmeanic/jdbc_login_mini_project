@@ -1,14 +1,14 @@
-public class user {
+public class User {
    private int id;
    private String firstName;
    private String lastName;
    private String usename;
    private String password;
 
-   public user() {
+   public User() {
    }
 
-   public user(int id, String firstName, String lastName, String usename, String password) {
+   public User(int id, String firstName, String lastName, String usename, String password) {
       this.id = id   ;
       this.firstName = firstName;
       this.lastName = lastName;
@@ -16,7 +16,7 @@ public class user {
       this.password = password;
    }
 
-   public user(String firstName, String lastName, String usename, String password) {
+   public User(String firstName, String lastName, String usename, String password) {
       this.firstName = firstName;
       this.lastName = lastName;
       this.usename = usename;
